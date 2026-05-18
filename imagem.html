@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!--
+    Primeiramente faça uma tag para imagem: <img>;
+    Em seguida, utilize o atributo "src" para selecionar a fonte / origem da imagem.
+    Caso a imagem não carregue, você pode usar a tag "alt" para mostrar um texto ALTERNATIVO.
+    Imagens são tags que não necessitam de fechamento.
+    -->
+    <img src="imagens/Pikachu.png"
+         alt="[Imagem do Pikachu] não carregou corretamente."
+    > <br>
+
+
+    <!--
+    É possível colocar gifs utilizando a mesma tag.
+    -->
+    <img src="imagens/Pikachu Correndo.gif"
+         alt="[Imagem do Pikachu Correndo] não carregou corretamente."
+         width="300"
+         height="300"
+    > <br>
+
+    <!--
+    Utilizamos "width" e "height" para definir largura e altura respectivamente;
+    Utilizamos "title" para adicionar um título à imagem.
+    -->
+    <img src="imagens/Pikachu.png"
+         alt="[Imagem do Pikachu] não carregou corretamente."
+         width="300"
+         height="300"
+         title="Pikachu"
+    > <br>
+
+    <!--
+    Caso eu queira acessar uma imagem que esteja em uma PATH anterior, ou seja, caso necessite
+     sair de uma pasta para acessar a imagem é necessário usar "../".
+    Como exemplo: "../imagens/Pikachu.png".
+    -->
+
+    <!--
+    Caso eu queira acessar uma imagem que esteja na RAIZ do projeto, ou seja, caso necessite
+     sair diretamente para a pasta principal do arquivo é só utilizar "/".
+    Como exemplo: "/imagens/Pikachu.png".
+    Porém esse modelo, sem a utilização do "Live Server", vai para "Users" ou "C:", ou seja, 
+     a origem de tudo.
+    -->
+
+    <!--
+    Podemos utilizar a tag <figure> para criar uma foto / ilustração e colocar 
+     uma legenda com <figcaption>.
+    -->
+    <figure>
+        <img src="imagens/Pikachu.png"
+            alt="[Imagem do Pikachu] não carregou corretamente."
+            width="300"
+            height="300"
+            title="Pikachu"
+        >
+        <figcaption>Descrição da Imagem: Pikachu</figcaption>
+    </figure>
+
+</body>
+</html>

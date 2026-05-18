@@ -1,6 +1,6 @@
 # Projeto-Basico
 
-Esta pasta de arquivos é dedicada à atualização, prática e revisão de comandos básicos da linguagem HTML.
+Este repositório é dedicada à atualização, prática e revisão de comandos básicos da linguagem HTML.
 
 O objetivo deste projeto é servir como material de estudo e apoio para reforçar conceitos fundamentais do desenvolvimento web utilizando HTML.
 

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1> Cadastro de Novo Usuário </h1>
+
+    <form>
+
+            <!-- Iniciando o formulário com uma entrada type="text" para o "nome completo" do usuário -->
+            <label for="nome"> Nome completo: </label>
+            <input type="text" id="nome" name="nome" placeholder="ex. Samantha Jones" required> <br><br>
+
+            <label for="email"> E-mail: </label>
+            <input type="email" id="email" name="email" placeholder="ex. sam@gmail.com" required> <br><br>
+
+            <!-- Criando um input type="radio" para obter diferentes opções de selecionamento-->
+            <label> Me indenfico como: </label>
+            <label><input type="radio" name="sexo" value="M"> Mulher </label>
+            <label><input type="radio" name="sexo" value="H"> Homem </label>
+            <label><input type="radio" name="sexo" value="O"> Outro </label>
+            <br><br>
+
+            <!-- Criando um input type="date" para preenchimento do nascimento -->
+            <label for="nascimento"> Data de nascimento: </label>
+            <input type="date" name="nascimento" id="nascimento">
+            <br><br>
+
+            <!-- Utilizando o "select" para escolher entre diferentes idiomas -->
+            <label> Selecione quantos idiomas você se considera fluente: </label>
+            <br><br>
+
+            <input type="checkbox" id="ingles" name="ingles" value="ingles">
+            <label for="ingles"> Inglês </label>
+
+            <input type="checkbox" id="portugues" name="portugues" value="portugues">
+            <label for="portugues"> Português </label>
+
+            <input type="checkbox" id="espanhol" name="espanhol" value="espanhol">
+            <label for="espanhol"> Espanhol </label>
+
+            <input type="checkbox" id="alemao" name="alemao" value="alemao">
+            <label for="alemao"> Alemão </label>
+            <br><br>
+
+            <!-- Botão final de cadastro de usuário -->
+            <input type="submit" value="CRIAR CONTA">
+
+    </form>
+
+</body>
+</html>
